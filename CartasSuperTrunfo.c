@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 // Desafio Super Trunfo Novatos
-// Criar codigos para criação de 2 cartas para o jogo trunfo
+// Criar codigos para criação de 2 cartas para o jogo super trunfo
 
 
 int main() {
@@ -16,6 +16,18 @@ int main() {
     float area1, area2;
     float PIB1, PIB2;
     int ponto_turistico1, ponto_turistico2;
+
+
+//Codigo para descrição do cadastro da primeira carta
+
+
+    printf("Dados para cadastro da Primeira Carta: \n");
+
+
+//espaço para inicio da solicitação dos dados da segunda carta
+
+    printf(" \n");
+    printf(" \n");
 
 //codigos para criação dos dados da primeira carta
 
@@ -32,16 +44,28 @@ int main() {
     scanf("%d", &populacao1);
 
     printf("Digite a area da cidade 1: \n");
-    scanf("%2f", &area1);
+    scanf("%f", &area1);
 
     printf("Digite o PIB cidade 1: \n");
-    scanf("%2f", &PIB1);
+    scanf("%f", &PIB1);
 
     printf("Digite o numero de pontos turisticos da cidade 1: \n");
     scanf("%d", &ponto_turistico1);
 
 
+//espaço para inicio da solicitação dos dados da segunda carta
+
+    printf(" \n");
+    printf(" \n");
+
+
 //codigos para criação dos dados da segunda carta
+
+    printf("Dados para cadastro da Primeira Carta: \n");
+
+    printf(" \n");
+    printf(" \n");
+
 
     printf("Digite o Estado 2: \n");
     scanf("%s", estado2);
@@ -56,10 +80,10 @@ int main() {
     scanf("%d", &populacao2);
 
     printf("Digite a area da cidade 2: \n");
-    scanf("%2f", &area2);
+    scanf("%f", &area2);
 
     printf("Digite o PIB cidade 2: \n");
-    scanf("%2f", &PIB2);
+    scanf("%f", &PIB2);
 
     printf("Digite o numero de pontos turisticos da cidade 2: \n");
     scanf("%d", &ponto_turistico2);
@@ -73,6 +97,11 @@ int main() {
 
 // Codigos para a exibição dos dados das cartas
 // Primeira carta
+
+//espaço para inicio da exibição dos dados
+
+    printf(" \n");
+    printf(" \n");
 
     printf("Carta 1: \n");
 
@@ -89,6 +118,11 @@ int main() {
     printf("PIB: %2f bilhoes de reais\n", PIB1);
 
     printf("Numeros de Pontos Turisticos: %d \n", ponto_turistico1);
+
+//espaço para inicio da exibição dos dados da segunda carta
+
+    printf(" \n");
+    printf(" \n");
 
 
 // Segunda Carta
@@ -107,6 +141,9 @@ int main() {
     printf("PIB: %2f bilhoes de reais\n", PIB2);
 
     printf("Numeros de Pontos Turisticos: %d \n", ponto_turistico2);
+
+    printf(" \n");
+    printf(" \n");
 
  
 
