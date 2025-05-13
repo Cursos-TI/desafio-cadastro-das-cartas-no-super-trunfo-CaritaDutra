@@ -2,7 +2,7 @@
 
 // Desafio Super Trunfo Novatos
 // Criar codigos para criação de 2 cartas para o jogo super trunfo
-
+// Inclusão de Densidade Populacional e PIB per Capita - Nivel aventureiro
 
 int main() {
      
@@ -23,11 +23,6 @@ int main() {
 
     printf("Dados para cadastro da Primeira Carta: \n");
 
-
-//espaço para inicio da solicitação dos dados da segunda carta
-
-    printf(" \n");
-    printf(" \n");
 
 //codigos para criação dos dados da primeira carta
 
@@ -52,19 +47,11 @@ int main() {
     printf("Digite o numero de pontos turisticos da cidade 1: \n");
     scanf("%d", &ponto_turistico1);
 
-
-//espaço para inicio da solicitação dos dados da segunda carta
-
-    printf(" \n");
-    printf(" \n");
-
+ 
 
 //codigos para criação dos dados da segunda carta
 
-    printf("Dados para cadastro da Primeira Carta: \n");
-
-    printf(" \n");
-    printf(" \n");
+    printf("Dados para cadastro da Segunda Carta: \n");
 
 
     printf("Digite o Estado 2: \n");
@@ -98,10 +85,6 @@ int main() {
 // Codigos para a exibição dos dados das cartas
 // Primeira carta
 
-//espaço para inicio da exibição dos dados
-
-    printf(" \n");
-    printf(" \n");
 
     printf("Carta 1: \n");
 
@@ -119,10 +102,17 @@ int main() {
 
     printf("Numeros de Pontos Turisticos: %d \n", ponto_turistico1);
 
-//espaço para inicio da exibição dos dados da segunda carta
+// Calculo da Densidade Populacional da cidade 1
 
-    printf(" \n");
-    printf(" \n");
+    float densidade1 = populacao1 / area1;
+
+    printf("Densidade Populacional: %.2f habitantes/km²\n", densidade1);
+
+// Calculo do PIB per-capita da cidade 1
+
+    float percapita1 = PIB1 / populacao1;
+
+    printf("PIB per-Capita: %.2f reais/habitante\n", percapita1);
 
 
 // Segunda Carta
@@ -142,8 +132,17 @@ int main() {
 
     printf("Numeros de Pontos Turisticos: %d \n", ponto_turistico2);
 
-    printf(" \n");
-    printf(" \n");
+// Calculo da Densidade Populacional da cidade 2
+     
+     float densidade2 = populacao2 / area2;
+
+    printf("Densidade Populacional: %.2f habitantes/km²\n", densidade2);
+
+  // Calculo do PIB per-capita da cidade 2
+
+    float percapita2 = PIB2 / populacao2;
+
+    printf("PIB per Capita: %.2f reais/habitante\n", percapita2);
 
  
 
